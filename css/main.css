@@ -87,9 +87,11 @@ body {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.2) translateX(-5%);
     }
+
     100% {
         transform: scale(1);
     }
@@ -163,12 +165,12 @@ body {
 
 .car-card {
     border-radius: 0;
-!important;
 }
 
 .car-img {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    height: 250px;
 }
 
 .car-value {
@@ -309,7 +311,7 @@ body {
 /* contact */
 .contact {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/headerBcg.jpeg") center/cover fixed no-repeat;
+        url("../img/headerBcg.jpeg") center/cover fixed no-repeat;
 }
 
 .contact-input {
@@ -341,14 +343,15 @@ body {
 }
 
 /* Services Section */
-.services{
+.services {
     position: relative;
     min-height: 85vh;
     min-width: 95vw;
     margin: 0 auto;
-    clip-path: polygon(0 10%,100% 0,100% 90%,0 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
 }
-.video-container{
+
+.video-container {
     position: absolute;
     top: 0;
     left: 0;
@@ -356,12 +359,14 @@ body {
     height: 100%;
     z-index: -3;
 }
-.video-item{
+
+.video-item {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.video-overlay{
+
+.video-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -370,17 +375,20 @@ body {
     background: var(--transparentBlue);
     z-index: -2;
 }
-.service{
+
+.service {
     background: var(--mainBlack);
     color: var(--mainWhite);
     transition: all 1s ease-in-out;
 }
-.service:hover{
+
+.service:hover {
     background: var(--mainWhite);
     color: var(--mainBlack);
-    padding-left: 2.2rem!important;
+    padding-left: 2.2rem !important;
 }
-.service-icon{
+
+.service-icon {
     font-size: 4rem;
     color: var(--mainYellow);
 
@@ -412,15 +420,17 @@ body {
 
 /* footer */
 
-.footer{
+.footer {
     background-color: var(--mainBlack);
 }
-.footer-icon{
+
+.footer-icon {
     color: var(--mainYellow);
     font-size: 1.5rem;
     transition: all 1s ease-in-out;
     text-decoration: none;
 }
-.footer-icon:hover{
+
+.footer-icon:hover {
     color: var(--mainBlue);
 }
